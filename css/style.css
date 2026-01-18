@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/assets/image-from-rawpixel-id-5903683-original.jpg");
+  background-size: 1050px;
+  background-repeat: no-repeat;
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+  background-attachment:fixed ;
+  color: #173b58;
+}
+header {
+    margin: 180px 80px;
+}
+header h1 {
+    font-size: 2.4em;
+}
+header h2 {
+    font-size: 2em;
+}
+nav {
+    padding-top: 15px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #173b58;
+    font-size: 1.8em;
+}
+.asterisco {
+    color: darkred;
+}
+a:hover {
+    color: darkred;
+}
+
