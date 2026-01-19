@@ -47,8 +47,11 @@ p {
   */
   /* necesitas 3 instrucciones*/
   /*1: */
+  position: fixed;
   /*2: */
+  top: 0px;
   /*3: */
+  width: 100%;
   text-align: center;  
   background-color: #097054;
   border: 1px solid #FF9900;
@@ -73,7 +76,9 @@ p {
   */
   /* necesitas 2 instrucciones*/
   /*1: */
+  background-color: blue;
   /*2: */
+  border-bottom: 5px orange solid;
 }
 
 #footer{
@@ -82,8 +87,11 @@ p {
   */
   /* necesitas 3 instrucciones*/
   /*1: */
+  position: fixed;
   /*2: */
+  bottom: 0px;
   /*3: */
+  width: 100%;
   
   background-color: #097054;
   text-align: center;
@@ -115,6 +123,7 @@ p {
 
   /* necesitas 1 instruccion*/
   /*1: */
+  float: left;
   text-align: center;
   padding-bottom: 5px;
 }
@@ -126,6 +135,7 @@ p {
 
   /* necesitas 1 instruccion*/
   /*1: */
+  float: right;
   text-align: center;
   padding-bottom: 5px;
 }
@@ -137,6 +147,7 @@ p {
 
   /* necesitas 1 instruccion*/
   /*1: */
+  clear: both;
 }
 
 #imageToHide {
@@ -145,7 +156,8 @@ p {
  */
 
   /* necesitas 1 instruccion*/
-  /*1: */  
+  /*1: */
+  float: left;  
   text-align: center;
   margin-bottom: 40px;
 }
@@ -169,6 +181,10 @@ p {
   margin-bottom: 5px;
   padding-bottom: 5px;
   box-shadow: 2px 2px 50px black;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  left: 10%;
 }
 
 #textOverflow {
@@ -178,8 +194,9 @@ p {
 
   /* necesitas 2 instruccion*/
   /*1: */  
-  /*2: */  
-  
+  /*2: */
+  overflow-y: visible;
+  overflow-x: hidden;
   height: 250px;
   text-align: justify;
   border: 5px solid black;
@@ -221,6 +238,10 @@ p {
     /*1: */
     text-align: center;
     padding-bottom: 5px;
+    float: none;
+  }
+  #textCentral {
+    min-width: 200px;
   }
 
   #imageRight {
@@ -232,6 +253,7 @@ p {
     text-align: center;
     clear: both;
   padding-bottom: 5px;
+  float: none;
   }
   
   #textCentral {
@@ -244,7 +266,7 @@ p {
     */
     /* necesitas 1 instruccion*/
     /*1: */
-
+float: none;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -266,4 +288,5 @@ p {
     */
     margin-top: 100px;
   }
+  
 }
