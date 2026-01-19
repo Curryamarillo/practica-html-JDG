@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cookies {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    border: #672422 2px solid;
+    box-shadow: 5px 5px 5px;
+    padding: 10px;
+}
+.cookies button {
+    padding: 10px 30px 10px 30px;
+    background-color: #672422;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background-image: url('/practica_pos/images/fondo.jpg');
+    background-repeat: no-repeat;
+}
+nav {
+    background-color: #672422;
+    text-align: center;
+    padding: 10px 10px 10px;
+    border-bottom: 3px rgba(255, 255, 255, 0.715) dashed;
+    border-top: 3px rgba(255, 255, 255, 0.715) dashed;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+.contenedorMarca {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.marca {
+    position: relative;
+    left: 170px;
+    bottom: 140px;
+    color: rgba(255, 255, 255, 0.715);
+    font-size: xx-large;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px black;
+}
+
+li {
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.715);
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+}
+main {
+    background-color: #CA8B7D;
+    width: 100%;
+    height:max-content ;
+    margin-top: 350px;
+    border-top: 3px rgba(255, 255, 255, 0.715) dashed;
+    color: rgba(255, 255, 255, 0.715);
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.nota1, .nota2 {
+background-color: #963231;
+border-radius: 15px;
+border: 2px #CA8B7D dotted;
+margin: 10px 0px 10px 10px;
+padding: 10px;
+width: 90%;
+}
+.nota2 {
+    overflow: auto;
+}
+.notas {
+    border-right: 1px dotted wheat;
+    margin-right: 250px;
+}
+.foto_tatuaje {
+    padding: 4px 4px 0px 4px;
+    height: 400px;
+    border: 3px rgba(255, 255, 255, 0.715)dashed;
+    border-radius: 14px;
+    margin: 10px;
+}
+.imgDer {
+float: right;
+}
+.imgIzq {
+    overflow: auto;
+    float: left;
+}
+.rrss {
+    float: right;
+}
+.rrss img {
+    display: block;
+    margin: 50px 70px 10px 0px;
+}
+footer {
+    text-align: center;
+    background-color: #672422;
+    padding: 10px 0px 10px 0px;
+    color: rgba(255, 255, 255, 0.715);
+}
+footer a{
+    color: rgba(255, 255, 255, 0.715);
+    text-decoration: none;
+}
+footer a:hover{
+    border-top: #CA8B7D 5px solid;
+    text-decoration: none;
+    padding: 5px 0px 0px 0px;
+}
+@media all and (max-width: 700px) {
+.cookies {
+    position: absolute;
+    top: 200px;
+    left: 35px;
+    width: 80%;
+    box-shadow: 5px 5px 5px;
+    padding: 10px;
+}
+.contenedorMarca {
+    display: block;
+    top: 150px;
+    left: 50px;
+}
+.marca {
+    left: 0px;
+    bottom: 10px;
+    font-size: large;
+}
+main {
+    background-color: #CA8B7D;
+    width: 100%;
+    height:max-content ;
+    margin-top: 400px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.nota1, .nota2 {
+background-color: #963231;
+border-radius: 15px;
+border: 2px #CA8B7D dotted;
+margin: 0px 0px 0px 10px;
+padding-right: 10px;
+width: 90%;
+}
+.nota2 {
+    overflow: auto;
+}
+.notas {
+    margin-right: 0px;
+    margin-right: 0px;
+}
+.foto_tatuaje {
+    padding: 4px 4px 0px 4px;
+    height: 400px;
+    border: 3px rgba(255, 255, 255, 0.715)dashed;
+    border-radius: 14px;
+    margin: 0px;
+}
+.imgDer {
+float: right;
+clear: both;
+}
+.imgIzq {
+    clear: both;
+}
+.rrss {
+    float: none;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.rrss img {
+    display: inline-block;
+    margin: 10px;
+    width: 30px;
+}
+footer {
+    text-align: center;
+    background-color: #672422;
+    padding: 10px 0px 10px 0px;
+    color: rgba(255, 255, 255, 0.715);
+}
+footer a{
+    color: rgba(255, 255, 255, 0.715);
+    text-decoration: none;
+}
+footer a:hover{
+    border-top: #CA8B7D 5px solid;
+    text-decoration: none;
+    padding: 5px 0px 0px 0px;
+}
+}
